@@ -3036,3 +3036,189 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.03.31-04.41.53:392][682]SourceControl:  create mode 100644 Platformer/Content/__ExternalActors__/Maps/LI_Test/E/W4/Q7CO91PEIG0CLQUMDKFH0C.uasset
 [2024.03.31-04.41.53:415][682]SourceControl: Commited [main 598794e] gates.
 [2024.03.31-04.41.53:427][683]LogAutomationController: Ignoring very large delta of 7.59 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.03.31-04.43.15:273][883]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UserInterfaces/WBP_Health.WBP_Health
+[2024.03.31-04.43.15:274][883]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.31-04.43.15:274][883]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.31-04.43.15:279][883]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.31-04.43.15:279][883]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.31-04.43.15:285][883]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2024.03.31-04.43.16:005][883]LogSlate: Took 0.000114 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.03.31-04.43.16:013][883]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find SlateColor 'Foreground'.'
+[2024.03.31-04.43.16:013][883]LogSlate: Took 0.000130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2024.03.31-04.43.31:963][732]LogSlate: Window 'WBP_Health' being destroyed
+[2024.03.31-04.43.31:979][732]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2024.03.31-04.43.31:979][732]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.31-04.43.31:985][732]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2024.03.31-04.43.31:985][732]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.31-04.43.34:916][ 77]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UserInterfaces/WBP_MainMenu.WBP_MainMenu
+[2024.03.31-04.43.34:916][ 77]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.31-04.43.34:917][ 77]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.31-04.43.34:922][ 77]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.31-04.43.34:922][ 77]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.31-04.43.40:750][743]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.31-04.43.40:793][743]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UserInterfaces/WBP_MainMenu" FILE="C:/Users/ronte/Downloads/game-jam-2024/Platformer/Content/UserInterfaces/WBP_MainMenu.uasset" SILENT=true
+[2024.03.31-04.43.40:797][743]LogSavePackage: Moving output files for package: /Game/UserInterfaces/WBP_MainMenu
+[2024.03.31-04.43.40:798][743]LogSavePackage: Moving 'C:/Users/ronte/Downloads/game-jam-2024/Platformer/Saved/WBP_MainMenu555A140E480BB620E7FA7A82CFFA22D8.tmp' to 'C:/Users/ronte/Downloads/game-jam-2024/Platformer/Content/UserInterfaces/WBP_MainMenu.uasset'
+[2024.03.31-04.43.40:804][743]LogFileHelpers: InternalPromptForCheckoutAndSave took 53 ms (total: 1.12 sec)
+[2024.03.31-04.43.40:807][743]AssetCheck: New page: Asset Save: WBP_MainMenu
+[2024.03.31-04.43.40:807][743]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UserInterfaces/WBP_MainMenu.WBP_MainMenu
+[2024.03.31-04.43.41:406][808]LogSlate: Window 'WBP_MainMenu' being destroyed
+[2024.03.31-04.43.41:422][808]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2024.03.31-04.43.41:422][808]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.31-04.43.41:438][808]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2024.03.31-04.43.41:438][808]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.31-04.43.42:465][928]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.31-04.43.42:472][928]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.31-04.43.42:472][928]PIE: New page: PIE session: MAP_debug (Mar 30, 2024, 8:43:42 PM)
+[2024.03.31-04.43.42:518][928]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_debug
+[2024.03.31-04.43.42:525][928]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007609s)
+[2024.03.31-04.43.42:525][928]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_debug.MAP_debug to /Game/Maps/UEDPIE_0_MAP_debug.MAP_debug (0.007646s)
+[2024.03.31-04.43.42:525][928]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.31-04.43.42:525][928]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.31-04.43.42:526][928]LogAIModule: Creating AISystem for world MAP_debug
+[2024.03.31-04.43.42:526][928]LogPlayLevel: PIE: World Init took: (0.000597s)
+[2024.03.31-04.43.42:541][928]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2024.03.31-04.43.42:542][928]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2024.03.31-04.43.42:542][928]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.31-04.43.42:542][928]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.31-04.43.42:542][928]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.31-04.43.42:542][928]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.31-04.43.42:542][928]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.31-04.43.42:542][928]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.03.31-04.43.42:542][928]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.31-04.43.42:542][928]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.31-04.43.42:543][928]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.31-04.43.42:543][928]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.31-04.43.42:543][928]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.31-04.43.42:544][928]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.31-04.43.42:577][928]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek USB Audio)
+[2024.03.31-04.43.42:577][928]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.31-04.43.42:577][928]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.31-04.43.42:577][928]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.31-04.43.42:578][928]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2024.03.31-04.43.42:578][928]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=4
+[2024.03.31-04.43.42:580][928]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2024.03.31-04.43.42:580][928]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2024.03.31-04.43.42:580][928]LogInit: FAudioDevice initialized with ID 4.
+[2024.03.31-04.43.42:580][928]LogAudio: Display: Audio Device (ID: 4) registered with world 'MAP_debug'.
+[2024.03.31-04.43.42:580][928]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2024.03.31-04.43.42:582][928]LogLoad: Game class is 'GM_Action_C'
+[2024.03.31-04.43.42:585][928]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_debug.MAP_debug up for play (max tick rate 0) at 2024.03.31-00.43.42
+[2024.03.31-04.43.42:585][928]LogWorld: Bringing up level for play took: 0.002635
+[2024.03.31-04.43.42:587][928]LogOnline: OSS: Created online subsystem instance for: :Context_10
+[2024.03.31-04.43.42:589][928]PIE: Server logged in
+[2024.03.31-04.43.42:589][928]PIE: Play in editor total start time 0.117 seconds.
+[2024.03.31-04.43.42:602][928]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-04.43.42:602][928]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-04.43.42:602][928]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-04.43.42:602][928]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-04.43.42:603][928]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-04.43.42:603][928]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-04.43.42:603][928]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-04.43.42:603][928]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-04.43.42:603][928]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-04.43.42:604][928]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-04.43.42:604][928]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-04.43.42:604][928]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-04.43.42:604][928]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-04.43.42:605][928]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-04.43.42:605][928]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-04.43.42:605][928]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-04.43.42:605][928]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-04.43.43:736][ 47]LogScript: Script Msg: Playing animation override...
+[2024.03.31-04.43.44:940][191]LogScript: Script Msg: Playing animation override...
+[2024.03.31-04.43.46:098][327]LogScript: Script Msg: Playing animation override...
+[2024.03.31-04.43.47:148][449]LogScript: Script Msg: Playing animation override...
+[2024.03.31-04.43.47:866][531]LogScript: Script Msg: Playing animation override...
+[2024.03.31-04.43.48:440][588]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.31-04.43.48:440][588]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_debug
+[2024.03.31-04.43.48:440][588]LogWorld: UWorld::CleanupWorld for MAP_debug, bSessionEnded=true, bCleanupResources=true
+[2024.03.31-04.43.48:441][588]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.31-04.43.48:443][588]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.31-04.43.48:445][588]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.31-04.43.48:455][588]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.31-04.43.48:455][588]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2024.03.31-04.43.48:455][588]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.03.31-04.43.48:457][588]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.03.31-04.43.48:476][588]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.31-04.43.48:479][588]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.03.31-04.43.48:495][588]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-04.43.48:495][588]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-04.43.48:495][588]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-04.43.48:496][588]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-04.43.48:496][588]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-04.43.48:496][588]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-04.43.48:496][588]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-04.43.48:496][588]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-04.43.48:497][588]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-04.43.48:497][588]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-04.43.48:497][588]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-04.43.48:497][588]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-04.43.48:498][588]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-04.43.48:498][588]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-04.43.48:498][588]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-04.43.48:498][588]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-04.43.48:499][588]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-04.43.48:510][589]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2024.03.31-04.44.09:594][785]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UserInterfaces/WBP_MainMenu.WBP_MainMenu
+[2024.03.31-04.44.09:594][785]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.31-04.44.09:594][785]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.31-04.44.09:599][785]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.31-04.44.09:599][785]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.31-04.44.14:260][323]LogSlate: Window 'WBP_MainMenu' being destroyed
+[2024.03.31-04.44.14:276][323]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2024.03.31-04.44.14:276][323]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.31-04.44.14:282][323]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2024.03.31-04.44.14:282][323]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.31-04.44.26:405][547]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Content: 'D:/EpicGames/UE_5.2/Engine/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-04.44.26:405][547]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Bridge/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Bridge/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-04.44.26:405][547]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/TraceUtilities/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/TraceUtilities/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-04.44.26:405][547]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/2D/Paper2D/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-04.44.26:405][547]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Animation/ControlRig/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Animation/ControlRig/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-04.44.26:406][547]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Animation/IKRig/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Animation/IKRig/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-04.44.26:406][547]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Animation/ControlRigSpline/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Animation/ControlRigSpline/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-04.44.26:406][547]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-04.44.26:406][547]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Runtime/AudioWidgets/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Runtime/AudioWidgets/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-04.44.26:406][547]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Runtime/GeometryProcessing/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Runtime/GeometryProcessing/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-04.44.26:406][547]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Runtime/MeshModelingToolset/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Runtime/MeshModelingToolset/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-04.44.26:406][547]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Runtime/Metasound/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Runtime/Metasound/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-04.44.26:406][547]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Runtime/ResonanceAudio/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Runtime/ResonanceAudio/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-04.44.26:406][547]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/FX/Niagara/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/FX/Niagara/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-04.44.26:406][547]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Runtime/Synthesis/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-04.44.26:406][547]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Runtime/WaveTable/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Runtime/WaveTable/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-04.44.26:406][547]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Editor/BlueprintHeaderView/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Editor/BlueprintHeaderView/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-04.44.26:406][547]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Developer/AnimationSharing/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-04.44.26:406][547]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Editor/GeometryMode/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-04.44.26:406][547]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Editor/GLTFImporter/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Editor/GLTFImporter/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-04.44.26:406][547]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Editor/ModelingToolsEditorMode/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Editor/ModelingToolsEditorMode/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-04.44.26:406][547]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-04.44.26:406][547]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/VirtualProduction/Takes/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/VirtualProduction/Takes/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-04.44.26:406][547]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Experimental/ChaosCaching/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Experimental/ChaosCaching/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-04.44.26:406][547]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-04.44.26:406][547]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Experimental/ChaosNiagara/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-04.44.26:406][547]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-04.44.26:406][547]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Experimental/Dataflow/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Experimental/Dataflow/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-04.44.26:406][547]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Experimental/FullBodyIK/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Experimental/FullBodyIK/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-04.44.26:406][547]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-04.44.26:406][547]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Experimental/GeometryFlow/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Experimental/GeometryFlow/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-04.44.26:406][547]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Experimental/MeshLODToolset/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Experimental/MeshLODToolset/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-04.44.26:406][547]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-04.44.26:406][547]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Experimental/PythonScriptPlugin/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Experimental/PythonScriptPlugin/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-04.44.26:406][547]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Enterprise/DatasmithContent/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-04.44.26:406][547]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Experimental/UVEditor/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Experimental/UVEditor/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-04.44.26:406][547]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Interchange/Runtime/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Interchange/Runtime/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-04.44.26:406][547]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Marketplace/PaperZD/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Marketplace/PaperZD/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-04.44.26:406][547]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Enterprise/GLTFExporter/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Enterprise/GLTFExporter/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-04.44.26:406][547]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/MovieScene/SequencerScripting/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/MovieScene/SequencerScripting/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-04.44.26:406][547]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Media/MediaCompositing/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-04.44.26:406][547]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Media/MediaPlate/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Media/MediaPlate/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-04.44.26:406][547]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-04.44.26:406][547]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-04.44.31:988][547]LogSlate: Window 'Submit Files' being destroyed
+[2024.03.31-04.44.32:198][547]LogSourceControl: commit successful: [main a1fde8d] ui
+[2024.03.31-04.44.32:234][547]SourceControl: [main a1fde8d] ui
+[2024.03.31-04.44.32:234][547]SourceControl:  2 files changed, 0 insertions(+), 0 deletions(-)
+[2024.03.31-04.44.32:234][547]SourceControl:  create mode 100644 Platformer/Content/UserInterfaces/WBP_Health.uasset
+[2024.03.31-04.44.32:234][547]SourceControl:  create mode 100644 Platformer/Content/UserInterfaces/WBP_MainMenu.uasset
+[2024.03.31-04.44.32:255][547]SourceControl: Commited [main a1fde8d] ui.
+[2024.03.31-04.44.32:269][548]LogAutomationController: Ignoring very large delta of 5.87 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
