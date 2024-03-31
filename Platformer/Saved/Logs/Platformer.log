@@ -12713,3 +12713,347 @@ UnknownFunction []
 [2024.03.31-18.05.55:605][153]LogFileHelpers: InternalPromptForCheckoutAndSave took 127 ms (total: 12.3 sec)
 [2024.03.31-18.05.55:609][153]AssetCheck: New page: Asset Save: BP_Captain
 [2024.03.31-18.05.55:609][153]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Captain/BP_Captain.BP_Captain
+[2024.03.31-18.08.17:309][727]BlueprintLog: New page: Compile BP_Captain
+[2024.03.31-18.08.17:350][727]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.03.31-18.09.26:561][845]LogFactory: FactoryCreateFile: SoundWave with SoundFactory (0 0 C:\Users\ronte\Downloads\jumpdos.wav)
+[2024.03.31-18.09.26:562][845]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave jumpdos...
+[2024.03.31-18.09.26:564][845]LogAudio: Display: Chunk size for SoundWave /Game/Sounds/jumpdos.jumpdos: 262144
+[2024.03.31-18.09.26:564][845]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave jumpdos...
+[2024.03.31-18.09.26:567][845]LogAudio: Display: Chunk size for SoundWave /Game/Sounds/jumpdos.jumpdos: 262144
+[2024.03.31-18.09.29:988][170]LogContentBrowser: Deferred new asset file creation: jumpdos_Cue
+[2024.03.31-18.09.29:998][170]LogContentBrowser: Creating deferred item: jumpdos_Cue
+[2024.03.31-18.09.30:012][171]LogContentBrowser: Renaming the item being created (Deferred Item: jumpdos_Cue).
+[2024.03.31-18.09.47:695][287]LogContentBrowser: Attempting asset rename: jumpdos_Cue -> Jumpados
+[2024.03.31-18.09.47:760][287]LogContentBrowser: End creating deferred item jumpdos_Cue
+[2024.03.31-18.09.48:994][419]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.31-18.09.49:021][419]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/Jumpados" FILE="C:/Users/ronte/Downloads/game-jam-2024/Platformer/Content/Sounds/Jumpados.uasset" SILENT=true
+[2024.03.31-18.09.49:022][419]LogSavePackage: Moving output files for package: /Game/Sounds/Jumpados
+[2024.03.31-18.09.49:022][419]LogSavePackage: Moving 'C:/Users/ronte/Downloads/game-jam-2024/Platformer/Saved/JumpadosFA8C850B4471B08BF9C840808F9EA5F7.tmp' to 'C:/Users/ronte/Downloads/game-jam-2024/Platformer/Content/Sounds/Jumpados.uasset'
+[2024.03.31-18.09.49:024][419]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/jumpdos" FILE="C:/Users/ronte/Downloads/game-jam-2024/Platformer/Content/Sounds/jumpdos.uasset" SILENT=true
+[2024.03.31-18.09.49:026][419]LogSavePackage: Moving output files for package: /Game/Sounds/jumpdos
+[2024.03.31-18.09.49:026][419]LogSavePackage: Moving 'C:/Users/ronte/Downloads/game-jam-2024/Platformer/Saved/jumpdosA2BF29D845B2F8ECD6172ABE72219BB0.tmp' to 'C:/Users/ronte/Downloads/game-jam-2024/Platformer/Content/Sounds/jumpdos.uasset'
+[2024.03.31-18.09.49:132][419]LogFileHelpers: InternalPromptForCheckoutAndSave took 137 ms (total: 12.4 sec)
+[2024.03.31-18.09.49:137][419]AssetCheck: New page: Asset Save: multiple assets
+[2024.03.31-18.09.49:137][419]LogContentValidation: Display: Validating /Script/Engine.SoundCue /Game/Sounds/Jumpados.Jumpados
+[2024.03.31-18.09.49:137][419]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/jumpdos.jumpdos
+[2024.03.31-18.09.52:390][794]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Content/VREditor/Sounds/UI: 'D:/EpicGames/UE_5.2/Engine/Content/VREditor/Sounds/UI' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-18.09.56:840][321]BlueprintLog: New page: Compile BP_Captain
+[2024.03.31-18.09.56:886][321]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.03.31-18.09.58:232][462]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.31-18.09.58:249][462]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.31-18.09.58:249][462]PIE: New page: PIE session: MAP_debug (Mar 31, 2024, 10:09:58 AM)
+[2024.03.31-18.09.58:249][462]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_debug
+[2024.03.31-18.09.58:257][462]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007772s)
+[2024.03.31-18.09.58:257][462]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_debug.MAP_debug to /Game/Maps/UEDPIE_0_MAP_debug.MAP_debug (0.007799s)
+[2024.03.31-18.09.58:257][462]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.31-18.09.58:257][462]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.31-18.09.58:257][462]LogAIModule: Creating AISystem for world MAP_debug
+[2024.03.31-18.09.58:258][462]LogPlayLevel: PIE: World Init took: (0.000636s)
+[2024.03.31-18.09.58:270][462]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.03.31-18.09.58:274][462]LogAudio: Display: Creating Audio Device:                 Id: 61, Scope: Unique, Realtime: True
+[2024.03.31-18.09.58:274][462]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.31-18.09.58:274][462]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.31-18.09.58:274][462]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.31-18.09.58:274][462]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.31-18.09.58:274][462]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.31-18.09.58:274][462]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.03.31-18.09.58:274][462]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.31-18.09.58:274][462]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.31-18.09.58:275][462]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.31-18.09.58:275][462]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.31-18.09.58:275][462]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.31-18.09.58:277][462]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.31-18.09.58:307][462]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek USB Audio)
+[2024.03.31-18.09.58:307][462]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.31-18.09.58:307][462]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.31-18.09.58:307][462]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.31-18.09.58:308][462]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=61
+[2024.03.31-18.09.58:308][462]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=61
+[2024.03.31-18.09.58:310][462]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=61
+[2024.03.31-18.09.58:310][462]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=61
+[2024.03.31-18.09.58:310][462]LogInit: FAudioDevice initialized with ID 61.
+[2024.03.31-18.09.58:310][462]LogAudio: Display: Audio Device (ID: 61) registered with world 'MAP_debug'.
+[2024.03.31-18.09.58:310][462]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 61
+[2024.03.31-18.09.58:312][462]LogLoad: Game class is 'GM_Action_C'
+[2024.03.31-18.09.58:315][462]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_debug.MAP_debug up for play (max tick rate 0) at 2024.03.31-14.09.58
+[2024.03.31-18.09.58:315][462]LogWorld: Bringing up level for play took: 0.002832
+[2024.03.31-18.09.58:317][462]LogOnline: OSS: Created online subsystem instance for: :Context_156
+[2024.03.31-18.09.58:319][462]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.03.31-18.09.58:319][462]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.03.31-18.09.58:319][462]PIE: Server logged in
+[2024.03.31-18.09.58:320][462]PIE: Play in editor total start time 0.071 seconds.
+[2024.03.31-18.09.58:332][462]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.09.58:333][462]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.09.58:333][462]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.09.58:333][462]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.09.58:334][462]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.09.58:334][462]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.09.58:334][462]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.09.58:334][462]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.09.58:334][462]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.09.58:334][462]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.09.58:335][462]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.09.58:335][462]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.09.58:335][462]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.09.58:336][462]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.09.58:336][462]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.09.58:336][462]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.09.58:338][462]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.09.59:042][533]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.03.31-18.09.59:042][533]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.03.31-18.10.01:673][846]LogScript: Script Msg: Playing animation override...
+[2024.03.31-18.10.01:722][852]LogScript: Script Msg: Playing animation override...
+[2024.03.31-18.10.02:173][906]LogScript: Script Msg: Playing animation override...
+[2024.03.31-18.10.02:714][971]LogScript: Script Msg: Playing animation override...
+[2024.03.31-18.10.02:756][976]LogScript: Script Msg: Playing animation override...
+[2024.03.31-18.10.03:298][ 41]LogScript: Script Msg: Playing animation override...
+[2024.03.31-18.10.03:373][ 50]LogScript: Script Msg: Playing animation override...
+[2024.03.31-18.10.05:384][291]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.10.06:392][412]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.10.06:392][412]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.10.06:393][412]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.10.10:514][907]LogScript: Script Msg: Playing animation override...
+[2024.03.31-18.10.11:471][ 15]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.31-18.10.11:471][ 15]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_debug
+[2024.03.31-18.10.11:472][ 15]LogWorld: UWorld::CleanupWorld for MAP_debug, bSessionEnded=true, bCleanupResources=true
+[2024.03.31-18.10.11:472][ 15]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.31-18.10.11:474][ 15]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.31-18.10.11:478][ 15]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.31-18.10.11:491][ 15]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.31-18.10.11:491][ 15]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 61
+[2024.03.31-18.10.11:491][ 15]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=61
+[2024.03.31-18.10.11:493][ 15]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=61
+[2024.03.31-18.10.11:514][ 15]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.31-18.10.11:517][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.03.31-18.10.11:546][ 15]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.10.11:546][ 15]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.10.11:546][ 15]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.10.11:547][ 15]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.10.11:547][ 15]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.10.11:547][ 15]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.10.11:547][ 15]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.10.11:547][ 15]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.10.11:548][ 15]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.10.11:548][ 15]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.10.11:548][ 15]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.10.11:548][ 15]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.10.11:549][ 15]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.10.11:549][ 15]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.10.11:549][ 15]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.10.11:549][ 15]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.10.11:551][ 15]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.10.11:564][ 16]LogPlayLevel: Display: Destroying online subsystem :Context_156
+[2024.03.31-18.10.22:726][133]LogSlate: Window 'stun_rock_Sprite_3' being destroyed
+[2024.03.31-18.10.22:731][133]LogSlate: Window 'stun_rock_Sprite_3' being destroyed
+[2024.03.31-18.10.22:737][133]LogWorld: UWorld::CleanupWorld for World_89, bSessionEnded=true, bCleanupResources=true
+[2024.03.31-18.10.22:737][133]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.31-18.10.22:758][133]LogWorld: UWorld::CleanupWorld for World_90, bSessionEnded=true, bCleanupResources=true
+[2024.03.31-18.10.22:758][133]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.31-18.10.22:788][133]LogWorld: UWorld::CleanupWorld for World_91, bSessionEnded=true, bCleanupResources=true
+[2024.03.31-18.10.22:788][133]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.31-18.10.22:809][133]LogWorld: UWorld::CleanupWorld for World_92, bSessionEnded=true, bCleanupResources=true
+[2024.03.31-18.10.22:809][133]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.31-18.10.28:602][712]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.31-18.10.28:609][712]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.31-18.10.28:609][712]PIE: New page: PIE session: MAP_debug (Mar 31, 2024, 10:10:28 AM)
+[2024.03.31-18.10.28:637][712]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_debug
+[2024.03.31-18.10.28:645][712]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007997s)
+[2024.03.31-18.10.28:645][712]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_debug.MAP_debug to /Game/Maps/UEDPIE_0_MAP_debug.MAP_debug (0.008033s)
+[2024.03.31-18.10.28:645][712]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.31-18.10.28:645][712]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.31-18.10.28:645][712]LogAIModule: Creating AISystem for world MAP_debug
+[2024.03.31-18.10.28:645][712]LogPlayLevel: PIE: World Init took: (0.000592s)
+[2024.03.31-18.10.28:658][712]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.03.31-18.10.28:668][712]LogAudio: Display: Creating Audio Device:                 Id: 62, Scope: Unique, Realtime: True
+[2024.03.31-18.10.28:668][712]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.31-18.10.28:668][712]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.31-18.10.28:668][712]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.31-18.10.28:668][712]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.31-18.10.28:668][712]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.31-18.10.28:668][712]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.03.31-18.10.28:668][712]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.31-18.10.28:668][712]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.31-18.10.28:668][712]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.31-18.10.28:668][712]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.31-18.10.28:668][712]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.31-18.10.28:669][712]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.31-18.10.28:701][712]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek USB Audio)
+[2024.03.31-18.10.28:701][712]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.31-18.10.28:701][712]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.31-18.10.28:701][712]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.31-18.10.28:701][712]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=62
+[2024.03.31-18.10.28:701][712]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=62
+[2024.03.31-18.10.28:703][712]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=62
+[2024.03.31-18.10.28:703][712]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=62
+[2024.03.31-18.10.28:703][712]LogInit: FAudioDevice initialized with ID 62.
+[2024.03.31-18.10.28:703][712]LogAudio: Display: Audio Device (ID: 62) registered with world 'MAP_debug'.
+[2024.03.31-18.10.28:703][712]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 62
+[2024.03.31-18.10.28:706][712]LogLoad: Game class is 'GM_Action_C'
+[2024.03.31-18.10.28:709][712]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_debug.MAP_debug up for play (max tick rate 0) at 2024.03.31-14.10.28
+[2024.03.31-18.10.28:709][712]LogWorld: Bringing up level for play took: 0.002482
+[2024.03.31-18.10.28:710][712]LogOnline: OSS: Created online subsystem instance for: :Context_157
+[2024.03.31-18.10.28:712][712]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.03.31-18.10.28:712][712]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.03.31-18.10.28:712][712]PIE: Server logged in
+[2024.03.31-18.10.28:713][712]PIE: Play in editor total start time 0.104 seconds.
+[2024.03.31-18.10.28:726][712]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.10.28:726][712]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.10.28:727][712]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.10.28:727][712]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.10.28:727][712]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.10.28:727][712]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.10.28:728][712]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.10.28:728][712]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.10.28:728][712]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.10.28:728][712]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.10.28:729][712]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.10.28:729][712]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.10.28:729][712]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.10.28:729][712]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.10.28:729][712]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.10.28:730][712]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.10.28:731][712]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.10.29:424][784]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.03.31-18.10.29:424][784]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.03.31-18.10.35:254][478]LogScript: Script Msg: Playing animation override...
+[2024.03.31-18.10.35:737][536]LogScript: Script Msg: Playing animation override...
+[2024.03.31-18.10.36:162][587]LogScript: Script Msg: Playing animation override...
+[2024.03.31-18.10.36:787][662]LogScript: Script Msg: Playing animation override...
+[2024.03.31-18.10.36:795][663]LogScript: Script Msg: Playing animation override...
+[2024.03.31-18.10.44:767][608]LogScript: Script Msg: Playing animation override...
+[2024.03.31-18.10.44:795][611]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.10.45:368][680]LogScript: Script Msg: Playing animation override...
+[2024.03.31-18.10.45:796][731]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.10.46:092][766]LogScript: Script Msg: Playing animation override...
+[2024.03.31-18.10.46:796][849]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.10.47:458][926]LogScript: Script Msg: Playing animation override...
+[2024.03.31-18.10.47:802][967]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.10.48:059][998]LogScript: Script Msg: Playing animation override...
+[2024.03.31-18.10.48:469][ 47]LogScript: Script Msg: Playing animation override...
+[2024.03.31-18.10.48:805][ 87]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.10.49:810][205]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.10.49:810][205]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.10.49:811][205]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.10.50:464][282]LogScript: Script Msg: Playing animation override...
+[2024.03.31-18.10.50:931][338]LogScript: Script Msg: Playing animation override...
+[2024.03.31-18.10.51:298][382]LogScript: Script Msg: Playing animation override...
+[2024.03.31-18.10.51:806][443]LogScript: Script Msg: Playing animation override...
+[2024.03.31-18.10.59:537][344]LogScript: Script Msg: Playing animation override...
+[2024.03.31-18.10.59:598][351]LogScript: Script Msg: Playing animation override...
+[2024.03.31-18.11.00:059][404]LogScript: Script Msg: Playing animation override...
+[2024.03.31-18.11.00:129][412]LogScript: Script Msg: Playing animation override...
+[2024.03.31-18.11.00:592][466]LogScript: Script Msg: Playing animation override...
+[2024.03.31-18.11.00:654][473]LogScript: Script Msg: Playing animation override...
+[2024.03.31-18.11.01:126][528]LogScript: Script Msg: Playing animation override...
+[2024.03.31-18.11.01:186][535]LogScript: Script Msg: Playing animation override...
+[2024.03.31-18.11.02:783][721]LogScript: Script Msg: Playing animation override...
+[2024.03.31-18.11.03:667][825]LogScript: Script Msg: Playing animation override...
+[2024.03.31-18.11.03:858][847]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.11.05:578][ 51]LogScript: Script Msg: Playing animation override...
+[2024.03.31-18.11.05:870][ 85]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.11.06:291][135]LogScript: Script Msg: Playing animation override...
+[2024.03.31-18.11.06:878][203]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.11.08:630][401]LogScript: Script Msg: Playing animation override...
+[2024.03.31-18.11.08:883][429]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.11.09:191][465]LogScript: Script Msg: Playing animation override...
+[2024.03.31-18.11.09:751][530]LogScript: Script Msg: Playing animation override...
+[2024.03.31-18.11.09:884][545]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.11.10:494][615]LogScript: Script Msg: Playing animation override...
+[2024.03.31-18.11.10:889][660]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.11.10:911][663]LogScript: Script Msg: Playing animation override...
+[2024.03.31-18.11.11:394][719]LogScript: Script Msg: Playing animation override...
+[2024.03.31-18.11.12:662][858]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.31-18.11.12:662][858]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_debug
+[2024.03.31-18.11.12:663][858]LogWorld: UWorld::CleanupWorld for MAP_debug, bSessionEnded=true, bCleanupResources=true
+[2024.03.31-18.11.12:663][858]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.31-18.11.12:665][858]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.31-18.11.12:669][858]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.31-18.11.12:683][858]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.31-18.11.12:683][858]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 62
+[2024.03.31-18.11.12:683][858]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=62
+[2024.03.31-18.11.12:684][858]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=62
+[2024.03.31-18.11.12:720][858]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.03.31-18.11.12:749][858]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.11.12:749][858]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.11.12:750][858]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.11.12:750][858]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.11.12:750][858]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.11.12:750][858]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.11.12:751][858]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.11.12:751][858]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.11.12:751][858]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.11.12:751][858]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.11.12:751][858]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.11.12:752][858]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.11.12:752][858]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.11.12:752][858]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.11.12:752][858]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.11.12:752][858]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.11.12:754][858]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.31-18.11.12:766][859]LogPlayLevel: Display: Destroying online subsystem :Context_157
+[2024.03.31-18.11.14:460][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.03.31-18.11.14:562][ 44]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.31-18.11.14:591][ 44]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MAP_debug" FILE="C:/Users/ronte/Downloads/game-jam-2024/Platformer/Content/Maps/MAP_debug.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.03.31-18.11.14:604][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.03.31-18.11.14:630][ 44]LogSavePackage: Moving output files for package: /Game/Maps/MAP_debug
+[2024.03.31-18.11.14:630][ 44]LogSavePackage: Moving 'C:/Users/ronte/Downloads/game-jam-2024/Platformer/Saved/MAP_debugC2CC780D45AEE42513D5C5BB94B4643F.tmp' to 'C:/Users/ronte/Downloads/game-jam-2024/Platformer/Content/Maps/MAP_debug.umap'
+[2024.03.31-18.11.14:646][ 44]LogFileHelpers: No new changes to save!
+[2024.03.31-18.11.14:646][ 44]LogFileHelpers: Saving map 'MAP_debug' took 0.055
+[2024.03.31-18.11.14:699][ 44]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Captain/BP_Captain" FILE="C:/Users/ronte/Downloads/game-jam-2024/Platformer/Content/Blueprints/Characters/Captain/BP_Captain.uasset" SILENT=true
+[2024.03.31-18.11.14:719][ 44]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Captain/BP_Captain
+[2024.03.31-18.11.14:719][ 44]LogSavePackage: Moving 'C:/Users/ronte/Downloads/game-jam-2024/Platformer/Saved/BP_CaptainC70DB399464D2A8E75417A968996DFCD.tmp' to 'C:/Users/ronte/Downloads/game-jam-2024/Platformer/Content/Blueprints/Characters/Captain/BP_Captain.uasset'
+[2024.03.31-18.11.14:735][ 44]LogFileHelpers: InternalPromptForCheckoutAndSave took 173 ms (total: 12.6 sec)
+[2024.03.31-18.11.14:740][ 44]AssetCheck: New page: Asset Save: multiple assets
+[2024.03.31-18.11.14:740][ 44]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Characters/Captain/BP_Captain.BP_Captain
+[2024.03.31-18.11.14:740][ 44]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/MAP_debug.MAP_debug
+[2024.03.31-18.11.18:076][396]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Content: 'D:/EpicGames/UE_5.2/Engine/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-18.11.18:076][396]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Bridge/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Bridge/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-18.11.18:076][396]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/TraceUtilities/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/TraceUtilities/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-18.11.18:076][396]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/2D/Paper2D/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-18.11.18:076][396]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Animation/IKRig/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Animation/IKRig/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-18.11.18:076][396]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Animation/ControlRig/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Animation/ControlRig/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-18.11.18:076][396]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Animation/ControlRigSpline/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Animation/ControlRigSpline/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-18.11.18:076][396]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/VirtualProduction/Takes/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/VirtualProduction/Takes/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-18.11.18:076][396]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Editor/BlueprintHeaderView/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Editor/BlueprintHeaderView/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-18.11.18:076][396]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Editor/GeometryMode/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-18.11.18:076][396]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Editor/GLTFImporter/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Editor/GLTFImporter/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-18.11.18:076][396]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Editor/ModelingToolsEditorMode/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Editor/ModelingToolsEditorMode/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-18.11.18:076][396]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-18.11.18:076][396]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Experimental/ChaosCaching/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Experimental/ChaosCaching/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-18.11.18:076][396]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-18.11.18:076][396]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Experimental/ChaosNiagara/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-18.11.18:076][396]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-18.11.18:076][396]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Experimental/Dataflow/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Experimental/Dataflow/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-18.11.18:076][396]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Experimental/FullBodyIK/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Experimental/FullBodyIK/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-18.11.18:076][396]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-18.11.18:076][396]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Experimental/GeometryFlow/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Experimental/GeometryFlow/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-18.11.18:076][396]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Experimental/MeshLODToolset/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Experimental/MeshLODToolset/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-18.11.18:076][396]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-18.11.18:076][396]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Experimental/PythonScriptPlugin/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Experimental/PythonScriptPlugin/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-18.11.18:076][396]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Developer/AnimationSharing/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-18.11.18:076][396]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Enterprise/DatasmithContent/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-18.11.18:076][396]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Experimental/UVEditor/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Experimental/UVEditor/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-18.11.18:076][396]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Enterprise/GLTFExporter/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Enterprise/GLTFExporter/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-18.11.18:076][396]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Interchange/Runtime/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Interchange/Runtime/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-18.11.18:076][396]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/FX/Niagara/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/FX/Niagara/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-18.11.18:076][396]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Marketplace/PaperZD/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Marketplace/PaperZD/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-18.11.18:076][396]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/MovieScene/SequencerScripting/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/MovieScene/SequencerScripting/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-18.11.18:076][396]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Media/MediaCompositing/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-18.11.18:076][396]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Media/MediaPlate/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Media/MediaPlate/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-18.11.18:076][396]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-18.11.18:076][396]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Runtime/AudioWidgets/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Runtime/AudioWidgets/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-18.11.18:076][396]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Runtime/GeometryProcessing/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Runtime/GeometryProcessing/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-18.11.18:076][396]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Runtime/MeshModelingToolset/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Runtime/MeshModelingToolset/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-18.11.18:076][396]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Runtime/Metasound/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Runtime/Metasound/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-18.11.18:076][396]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Runtime/ResonanceAudio/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Runtime/ResonanceAudio/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-18.11.18:076][396]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Runtime/Synthesis/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-18.11.18:076][396]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Runtime/WaveTable/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Runtime/WaveTable/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-18.11.18:076][396]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-18.11.18:076][396]SourceControl: fatal: D:/EpicGames/UE_5.2/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content: 'D:/EpicGames/UE_5.2/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content' is outside repository at 'C:/Users/ronte/Downloads/game-jam-2024'
+[2024.03.31-18.11.22:911][396]LogSlate: Window 'Submit Files' being destroyed
+[2024.03.31-18.11.23:201][396]LogSourceControl: commit successful: [LD31 d375b75] UPDATE
+[2024.03.31-18.11.23:291][396]SourceControl: [LD31 d375b75] UPDATE
+[2024.03.31-18.11.23:291][396]SourceControl:  4 files changed, 0 insertions(+), 0 deletions(-)
+[2024.03.31-18.11.23:291][396]SourceControl:  create mode 100644 Platformer/Content/Sounds/Jumpados.uasset
+[2024.03.31-18.11.23:291][396]SourceControl:  create mode 100644 Platformer/Content/Sounds/jumpdos.uasset
+[2024.03.31-18.11.23:311][396]SourceControl: Commited [LD31 d375b75] UPDATE.
